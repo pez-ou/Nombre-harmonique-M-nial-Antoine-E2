@@ -14,6 +14,17 @@ int[] CréerTab(int taille)
     return new int[taille];
 }
 
+//Création suite harmonique
+int[] NbHarmonique(int[] tab)
+{
+    int val = 0;
+    for (int i = 1; i < tab.Length; i++)
+    {
+        val = val + 1 / tab[i];
+    }
+    return val;
+}
+
 
 
 
