@@ -15,10 +15,10 @@ int[] CreeTab()
 //Le tableau prends val et val s'incrémente suivant le nombre harmonique Hn
 void InitTab(int[] tab)
 {
-    double val = 0.00;
-    for (int i = 1; i <= tab.Length; i++)
+    float val = 0.2F;
+    for (int i = 1; i < tab.Length; i++)
     {
-        val += 1.00 / i;
+        val += 1.2F / i;
         tab[i - 1] = (int)val;
     }
 }
