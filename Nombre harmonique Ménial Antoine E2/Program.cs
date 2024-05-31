@@ -25,6 +25,17 @@ int[] NbHarmonique(int[] tab)
     return val;
 }
 
+//Création sous-programme pour afficher le tableau
+void AfficherTab(int[] tab)
+{
+    for (int i = 0; i < tab.Length; i++)
+    {
+        Console.Write(tab[i] + " ");
+    }
+}
+
+
+
 
 
 
