@@ -8,4 +8,12 @@ int Saisi()
     return a;
 }
 
+//Création du tableau
+int[] CréerTab(int taille)
+{
+    return new int[taille];
+}
+
+
+
 
